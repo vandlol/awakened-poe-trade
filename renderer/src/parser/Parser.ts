@@ -59,6 +59,8 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseHeistContract,
   parseHeistBlueprint,
   parseChart,
+  parseUltimatum,
+  parseUltimatumMods,
   parseAreaLevel,
   parseAtzoatlRooms,
   parseMirroredTablet,
@@ -1036,6 +1038,82 @@ function parseChart (section: string[], item: ParsedItem) {
       item.chartSulphur = parseInt(line.slice(_$.CHART_SULPHUR.length), 10)
     }
   }
+
+  return 'SECTION_PARSED'
+}
+
+function parseUltimatum (section: string[], item: ParsedItem) {
+  if (item.info.refName !== 'Inscribed Ultimatum') return 'PARSER_SKIPPED'
+
+  if (!parseAreaLevelNested(section, item)) {
+    return 'SECTION_SKIPPED'
+  }
+
+  // name plate says `Rarity: Currency`
+  item.category = ItemCategory.Ultimatum
+  item.ultimatum = {}
+
+  for (const line of section) {
+    if (line.startsWith(_$.ULTIMATUM_CHALLENGE)) {
+      const challenge = line.slice(_$.ULTIMATUM_CHALLENGE.length)
+      switch (challenge) {
+        case _$.ULTIMATUM_CHALLENGE_EXTERMINATE:
+          item.ultimatum.challenge = 'Exterminate'; break
+        case _$.ULTIMATUM_CHALLENGE_SURVIVAL:
+          item.ultimatum.challenge = 'Survival'; break
+        case _$.ULTIMATUM_CHALLENGE_DEFENSE:
+          item.ultimatum.challenge = 'Defense'; break
+        case _$.ULTIMATUM_CHALLENGE_CONQUER:
+          item.ultimatum.challenge = 'Conquer'; break
+      }
+      item.ultimatum.challengeText = challenge
+    } else if (line.startsWith(_$.ULTIMATUM_REWARD)) {
+      const reward = line.slice(_$.ULTIMATUM_REWARD.length)
+      switch (reward) {
+        case _$.ULTIMATUM_REWARD_DOUBLE_CURRENCY:
+          item.ultimatum.reward = 'DoubleCurrency'; break
+        case _$.ULTIMATUM_REWARD_DOUBLE_DIVCARDS:
+          item.ultimatum.reward = 'DoubleDivCards'; break
+        case _$.ULTIMATUM_REWARD_MIRROR_RARE:
+          item.ultimatum.reward = 'MirrorRare'; break
+        default:
+          // anything else is the name of the Unique you get in exchange
+          item.ultimatum.reward = 'ExchangeUnique'
+          item.ultimatum.rewardUnique = ITEM_BY_TRANSLATED('UNIQUE', reward)?.[0]
+      }
+      item.ultimatum.rewardText = reward
+    } else if (line.startsWith(_$.ULTIMATUM_SACRIFICE)) {
+      const sacrifice = line.slice(_$.ULTIMATUM_SACRIFICE.length)
+      // "Chaos Orb x10", but there is no filter for the stack size on trade
+      const stack = _$.ULTIMATUM_SACRIFICE_STACK.exec(sacrifice)
+      const name = (stack) ? stack.groups!.name : sacrifice
+      item.ultimatum.sacrifice =
+        ITEM_BY_TRANSLATED('ITEM', name)?.[0] ??
+        ITEM_BY_TRANSLATED('DIVINATION_CARD', name)?.[0] ??
+        ITEM_BY_TRANSLATED('UNIQUE', name)?.[0]
+      item.ultimatum.sacrificeText = sacrifice
+    }
+  }
+
+  return 'SECTION_PARSED'
+}
+
+function parseUltimatumMods (section: string[], item: ParsedItem) {
+  if (item.category !== ItemCategory.Ultimatum) return 'PARSER_SKIPPED'
+
+  // NOTE: modifiers of the encounter are not parsed by `parseModifiers`,
+  // because the item has no rarity. Some of them are missing on trade,
+  // so a single unknown line must not skip the whole section
+  const isModifiers = section.some(line => tryParseTranslation(
+    { string: line, unscalable: false }, ModifierType.Explicit, item.category))
+  if (!isModifiers) {
+    return 'SECTION_SKIPPED'
+  }
+
+  parseStatsFromMod(section, item, {
+    info: { tags: [], type: ModifierType.Explicit },
+    stats: []
+  })
 
   return 'SECTION_PARSED'
 }

@@ -95,6 +95,48 @@ export function createFilters (
 
     return filters
   }
+  if (item.category === ItemCategory.Ultimatum) {
+    const ultimatum = item.ultimatum!
+
+    filters.searchExact = {
+      baseType: item.info.name,
+      baseTypeTrade: t(opts, item.info)
+    }
+    filters.areaLevel = {
+      value: item.areaLevel!,
+      disabled: false
+    }
+    if (ultimatum.challenge) {
+      filters.ultimatumChallenge = {
+        value: ultimatum.challenge,
+        text: ultimatum.challengeText!,
+        // matters only if you have to run the Ultimatum yourself
+        disabled: (ultimatum.reward !== 'MirrorRare')
+      }
+    }
+    if (ultimatum.rewardUnique) {
+      filters.ultimatumRewardUnique = {
+        text: ultimatum.rewardUnique.name,
+        nameTrade: t(opts, ultimatum.rewardUnique),
+        disabled: false
+      }
+    } else if (ultimatum.reward) {
+      filters.ultimatumReward = {
+        value: ultimatum.reward,
+        text: ultimatum.rewardText!,
+        disabled: false
+      }
+    }
+    if (ultimatum.sacrifice) {
+      filters.ultimatumSacrifice = {
+        text: ultimatum.sacrificeText!,
+        nameTrade: t(opts, ultimatum.sacrifice),
+        disabled: false
+      }
+    }
+
+    return filters
+  }
   if (
     item.category === ItemCategory.DivinationCard ||
     item.category === ItemCategory.Currency ||

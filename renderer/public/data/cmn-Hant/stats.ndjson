@@ -2922,6 +2922,7 @@
 {"ref":"Adds Secrets of Suffering","better":1,"matchers":[{"string":"附加磨難秘辛"}],"trade":{"ids":{"explicit":["explicit.stat_56720831"]}}}
 {"ref":"Adds Veteran's Awareness","better":1,"matchers":[{"string":"附加老鳥意識"}],"trade":{"ids":{"explicit":["explicit.stat_1379205566"]}}}
 {"ref":"Agony Crawler deals #% increased Damage","better":1,"matchers":[{"string":"苦痛毒蛛蠍增加 #% 傷害"},{"string":"苦痛毒蛛蠍減少 #% 傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_786460697"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"異常狀態和詛咒反射"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
 {"ref":"Alert Level increases by #% per second","dp":true,"better":1,"fromAreaMods":"heist_exclusive","matchers":[{"string":"警戒等級每秒增加 #%"},{"string":"警戒等級每秒減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3138486617"],"fractured":["fractured.stat_3138486617"]}}}
 {"ref":"All Attack Damage Chills when you Stun","better":1,"matchers":[{"string":"擊暈時所有攻擊傷害造成冰緩"}],"trade":{"ids":{"explicit":["explicit.stat_2437193018"]}}}
 {"ref":"All Damage can Freeze","better":1,"matchers":[{"string":"所有傷害可以造成冰凍"}],"trade":{"ids":{"explicit":["explicit.stat_4052117756"],"implicit":["implicit.stat_4052117756"]}}}
@@ -3976,6 +3977,10 @@
 {"ref":"Blind Chilled Enemies on Hit","better":1,"matchers":[{"string":"擊中冰緩的敵人時有 #% 機率使其致盲"},{"string":"擊中冰緩的敵人時使其致盲","value":100}],"trade":{"ids":{"explicit":["explicit.stat_3450276548"],"fractured":["fractured.stat_3450276548"]}}}
 {"ref":"Blind does not affect your Light Radius","better":1,"matchers":[{"string":"致盲不影響你的光線範圍"}],"trade":{"ids":{"explicit":["explicit.stat_3013171896"]}}}
 {"ref":"Blind you inflict is Reflected to you","better":1,"matchers":[{"string":"你造成的致盲反射回你"}],"trade":{"ids":{"explicit":["explicit.stat_2458598175"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"極凍"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"極凍 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"極凍 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"極凍 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
 {"ref":"Blood Magic","better":1,"matchers":[{"string":"祭血術"}],"trade":{"ids":{"explicit":["explicit.stat_2801937280"],"fractured":["fractured.stat_2801937280"]}}}
 {"ref":"Bloodsoaked Blade","better":1,"matchers":[{"string":"浸血之刃"}],"trade":{"ids":{"explicit":["explicit.stat_2363616962"]}}}
 {"ref":"Blueprints that drop in your Maps have #% chance to be fully Revealed","better":1,"matchers":[{"string":"你地圖中掉落的藍圖有 #% 機率為全部揭露"}],"trade":{"ids":{"explicit":["explicit.stat_3113439544"]}}}
@@ -3988,6 +3993,7 @@
 {"ref":"Bow Attacks Sacrifice a random Damageable Minion to fire # additional Arrow","better":1,"matchers":[{"string":"弓的攻擊會犧牲一個隨機可傷害召喚物，並射出 # 支額外箭矢"}],"trade":{"ids":{"explicit":["explicit.stat_151300265"]}}}
 {"ref":"Bow Knockback at Close Range","better":1,"matchers":[{"string":"近距離時弓擊退敵人"}],"trade":{"ids":{"explicit":["explicit.stat_3261557635"]}}}
 {"ref":"Brand Skills have #% increased Duration","better":1,"matchers":[{"string":"烙印技能增加 #% 持續時間"},{"string":"烙印技能減少 #% 持續時間","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3089482869"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"增益效果失效加速"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
 {"ref":"Buffs granted by Orichalcum Ore Deposits in your Maps have #% increased Duration","better":1,"matchers":[{"string":"在你的地圖中，山銅礦床所賦予之增益效果的持續時間增加 #%"},{"string":"在你的地圖中，山銅礦床所賦予之增益效果的持續時間減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3847531781"]}}}
 {"ref":"Buffs on Players expire #% faster","better":1,"fromAreaMods":"yes","matchers":[{"string":"玩家身上的增益效果加速 #% 失效"},{"string":"玩家身上的增益效果減緩 #% 失效"}],"trade":{"ids":{"explicit":["explicit.stat_1217583941"],"fractured":["fractured.stat_1217583941"]}}}
 {"ref":"Burning Enemies you kill have a #% chance to Explode, dealing a tenth of their maximum Life as Fire Damage","better":1,"matchers":[{"string":"你擊殺燃燒的敵人有 #% 機率爆炸，造成十分之一它們最大生命的火焰傷害"}],"trade":{"ids":{"enchant":["enchant.stat_1617268696"]}}}
@@ -4116,6 +4122,9 @@
 {"ref":"Chill Nearby Enemies when you Block","better":1,"matchers":[{"string":"當你格擋時冰緩附近敵人"}],"trade":{"ids":{"explicit":["explicit.stat_583277599"],"fractured":["fractured.stat_583277599"]}}}
 {"ref":"Chill nearby Enemies when you Focus, causing 30% reduced Action Speed","better":1,"matchers":[{"string":"當你專注時冰緩附近敵人，減少 30% 行動速度"}],"trade":{"ids":{"explicit":["explicit.stat_2384145996"]}}}
 {"ref":"Chills from your Hits always reduce Action Speed by at least #%","better":1,"matchers":[{"string":"你擊中造成的冰緩必定減少至少 #% 行動速度"}],"trade":{"ids":{"explicit":["explicit.stat_2774670797"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"窒息迷霧"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"窒息迷霧 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"窒息迷霧 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
 {"ref":"Clarity has no Reservation","better":1,"matchers":[{"string":"清晰無保留"}],"trade":{"ids":{"explicit":["explicit.stat_2250543633"]}}}
 {"ref":"Cluster Jewels from Delirium Rewards have a #% chance to be Rare and Corrupted","better":1,"matchers":[{"string":"來自譫妄獎勵的星團珠寶，有 #% 機率為稀有或已汙染"}],"trade":{"ids":{"explicit":["explicit.stat_1975134334"]}}}
 {"ref":"Cold Damage with Hits is Lucky if you've Suppressed Spell Damage Recently","better":1,"matchers":[{"string":"若你近期內曾壓抑法術傷害，擊中造成的冰冷傷害視為不幸","value":-1},{"string":"若你近期內曾壓抑法術傷害，擊中造成的冰冷傷害視為幸運","value":1}],"trade":{"ids":{"explicit":["explicit.stat_3810337989"]}}}
@@ -4235,6 +4244,7 @@
 {"ref":"Damaging Ailments deal damage #% faster","better":1,"matchers":[{"string":"傷害型異常狀態造成傷害加速 #%"}],"trade":{"ids":{"explicit":["explicit.stat_538241406"],"fractured":["fractured.stat_538241406"]}}}
 {"ref":"Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence","better":1,"matchers":[{"string":"被惡意影響時，你造成的傷害型異常狀態所造成的傷害加速 #%"}],"trade":{"ids":{"explicit":["explicit.stat_3468843137"]}}}
 {"ref":"Damaging Retaliation Skills become Usable every # seconds","better":1,"matchers":[{"string":"造成傷害的復仇技能每 # 秒可使用一次"}],"trade":{"ids":{"explicit":["explicit.stat_1631195850"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"致命怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
 {"ref":"Deal #% increased Damage Over Time per 100 Player Maximum Life","better":1,"matchers":[{"string":"玩家每 100 最大生命值，增加 #% 持續傷害"},{"string":"玩家每 100 最大生命值，減少 #% 持續傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1855381243"]}}}
 {"ref":"Deal no Chaos Damage","better":1,"matchers":[{"string":"不能造成混沌傷害"}],"trade":{"ids":{"explicit":["explicit.stat_1896269067"]}}}
 {"ref":"Deal no Cold Damage","better":1,"matchers":[{"string":"不會造成冰冷傷害"}],"trade":{"ids":{"explicit":["explicit.stat_743677006"]}}}
@@ -4281,6 +4291,7 @@
 {"ref":"Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus","better":1,"matchers":[{"string":"範圍內來自天賦的敏捷和智慧轉為力量近戰傷害加成"}],"trade":{"ids":{"explicit":["explicit.stat_842363566"]}}}
 {"ref":"Dexterity from Passives in Radius is Transformed to Intelligence","better":1,"matchers":[{"string":"將範圍內天賦所賦予的敏捷轉換成智慧"}],"trade":{"ids":{"explicit":["explicit.stat_2075199521"]}}}
 {"ref":"Dexterity from Passives in Radius is Transformed to Strength","better":1,"matchers":[{"string":"將範圍內天賦所賦予的敏捷轉換成力量"}],"trade":{"ids":{"explicit":["explicit.stat_4097174922"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"輕巧怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
 {"ref":"Discipline has #% increased Aura Effect","better":1,"matchers":[{"string":"紀律增加 #% 光環效果"},{"string":"紀律減少 #% 光環效果","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_788317702"]}}}
 {"ref":"Discipline has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"紀律增加 #% 魔力保留效用"},{"string":"紀律減少 #% 魔力保留效用","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2081344089"],"implicit":["implicit.stat_2081344089"],"enchant":["enchant.stat_2081344089"]}}}
 {"ref":"Discipline has no Reservation","better":1,"matchers":[{"string":"紀律無保留"}],"trade":{"ids":{"explicit":["explicit.stat_3708588508"]}}}
@@ -4294,6 +4305,7 @@
 {"ref":"Drops Sapped Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"移動時留下殘喘地面，持續 # 秒"}],"trade":{"ids":{"implicit":["implicit.stat_1997664024"]}}}
 {"resolve":{"strat":"trivial-merge"},"stats":[{"ref":"Drops Scorched Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"移動時留下焦灼地面，持續 # 秒"}],"trade":{"ids":{"implicit":["implicit.stat_396238230"]}}},{"ref":"Drops Scorched Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"移動時掉落焦灼地面，持續 # 秒"}],"trade":{"ids":{"explicit":["explicit.stat_1558131185"]}}}]}
 {"ref":"Drops Shocked Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"移動時留下感電地面，持續 # 秒"}],"trade":{"ids":{"explicit":["explicit.stat_3002060175"],"implicit":["implicit.stat_3002060175"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"乾旱"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
 {"ref":"Duplicates up to # random Offer Reward upon defeating the Herald of the Scourge","better":1,"matchers":[{"string":"擊敗災魘先鋒時，複製最多 # 隨機獎勵"}],"trade":{"ids":{"explicit":["sanctum.stat_502549687"]}}}
 {"ref":"During Effect, #% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest","better":-1,"matchers":[{"string":"效果持續時間內，你絕對抗性最低的元素，你承受到該元素的傷害增加 #%"},{"string":"效果持續時間內，你絕對抗性最低的元素，你承受到該元素的傷害減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1869678332"]},"inverted":true}}
 {"ref":"During Effect, Damage Penetrates #% Resistance of each Element for which your Uncapped Elemental Resistance is highest","better":1,"matchers":[{"string":"效果持續時間內，你絕對抗性最高的元素，你所造成該元素的傷害穿透 #% 該抗性"}],"trade":{"ids":{"explicit":["explicit.stat_2444301311"]}}}
@@ -4396,6 +4408,8 @@
 {"ref":"Envy has no Reservation","better":1,"matchers":[{"string":"忌妒無保留"}],"trade":{"ids":{"explicit":["explicit.stat_2503479316"]}}}
 {"ref":"Equipment Items with Rarity dropped by Possessed Monsters in your Maps have #% chance to be converted to Thaumaturgic Dust","better":1,"matchers":[{"string":"在你的地圖中，被附身的怪物所掉落之具有稀有度的裝備物品有 #% 機率轉換為奇術魔塵"},{"string":"在你的地圖中，被附身的怪物所掉落之具有稀有度的裝備物品會轉換為奇術魔塵","value":100}],"trade":{"ids":{"explicit":["explicit.stat_1813488582"]}}}
 {"ref":"Equipped Magic Flasks have #% increased effect on you if no Flasks are Adjacent to them","better":1,"matchers":[{"string":"已裝備的魔法藥劑若沒有相鄰的藥劑，則增加#%作用於你的效果"},{"string":"已裝備的魔法藥劑若沒有相鄰的藥劑，則降低#%作用於你的效果","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2649904663"],"fractured":["fractured.stat_2649904663"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"增加承受傷害"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"增加怪物速度"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
 {"ref":"Eternal Youth","better":1,"matchers":[{"string":"青春永駐"}],"trade":{"ids":{"explicit":["explicit.stat_1308467455"],"implicit":["implicit.stat_1308467455"]}}}
 {"ref":"Evasion Rating is increased by Overcapped Cold Resistance","better":1,"matchers":[{"string":"超過上限的冰冷抗性增加為閃避值"}],"trade":{"ids":{"explicit":["explicit.stat_2358015838"],"implicit":["implicit.stat_2358015838"],"fractured":["fractured.stat_2358015838"]}}}
 {"ref":"Everlasting Sacrifice","better":1,"matchers":[{"string":"永恆奉獻"}],"trade":{"ids":{"explicit":["explicit.stat_145598447"],"implicit":["implicit.stat_145598447"]}}}
@@ -4982,6 +4996,7 @@
 {"ref":"Hex Reflection","better":1,"matchers":[{"string":"咒術反射"}],"trade":{"ids":{"explicit":["explicit.stat_1731672673"]}}}
 {"ref":"Hexes applied by Socketed Curse Skills are Reflected back to you","better":1,"matchers":[{"string":"插槽中詛咒技能所造成的咒術被反射至你身上"}],"trade":{"ids":{"explicit":["explicit.stat_32859524"],"implicit":["implicit.stat_32859524"]}}}
 {"ref":"Hexes Transfer to all Enemies within 3 metres when Hexed Enemy dies","better":1,"matchers":[{"string":"當被咒術的敵人死亡時，咒術轉移至 3 米內的全部敵人"}],"trade":{"ids":{"explicit":["explicit.stat_986616727"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"阻礙藥劑"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
 {"ref":"Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Life","better":1,"matchers":[{"string":"若使用時不是滿血，阻礙附近敵人減少 #% 移動速度"}],"trade":{"ids":{"explicit":["explicit.stat_1462364052"],"fractured":["fractured.stat_1462364052"]}}}
 {"ref":"Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Mana","better":1,"matchers":[{"string":"若使用時不是滿魔，阻礙附近敵人減少 #% 移動速度"}],"trade":{"ids":{"explicit":["explicit.stat_2313899959"],"fractured":["fractured.stat_2313899959"]}}}
 {"ref":"Historic","better":1,"matchers":[{"string":"威宏史觀"}],"trade":{"ids":{"explicit":["explicit.stat_3787436548"]}}}
@@ -5192,6 +5207,9 @@
 {"ref":"Legion Monsters in your Maps which have Rewards have #% chance to gain two additional Rewards, and if not have #% chance to gain one additional Reward","better":1,"matchers":[{"string":"你地圖中的有獎勵的戰亂怪物有 #% 機率獲得 2 個額外獎勵，若沒有則有 #% 機率獲得 1 個額外獎勵"}],"trade":{"ids":{"explicit":["explicit.stat_611792282"]}}}
 {"ref":"Legion Sergeants in your Maps have #% additional chance to have Rewards","better":1,"matchers":[{"string":"你地圖中的戰亂中士有 #% 額外機率有獎勵"},{"string":"你地圖中的戰亂中士必定有獎勵","value":100}],"trade":{"ids":{"explicit":["explicit.stat_958835998"]}}}
 {"ref":"Leo's Veiled","better":0,"matchers":[{"string":"里歐的隱匿"}],"trade":{"ids":{"veiled":["veiled.mod_3258"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"降低冷卻時間恢復"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"縮小範圍"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"致死稀有怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
 {"ref":"Lethe Shade","better":1,"matchers":[{"string":"忘卻陰影"}],"trade":{"ids":{"explicit":["explicit.stat_1678358883"],"fractured":["fractured.stat_1678358883"]}}}
 {"ref":"Life and Mana Leech are instant during effect","better":1,"matchers":[{"string":"效果持續時間內立即獲得生命和魔力偷取"}],"trade":{"ids":{"explicit":["explicit.stat_1102362593"]}}}
 {"ref":"Life and Mana Leech from Critical Strikes are instant","better":1,"matchers":[{"string":"立即獲得暴擊的生命和魔力偷取"}],"trade":{"ids":{"explicit":["explicit.stat_3389184522"]}}}
@@ -5206,6 +5224,7 @@
 {"ref":"Lifeforce dropped by Harvest Monsters in your Maps has #% chance to be Duplicated","better":1,"matchers":[{"string":"你地圖中豐收怪物掉落的生靈之力有 #% 機率被複製"}],"trade":{"ids":{"explicit":["explicit.stat_2591612078"]}}}
 {"ref":"Lifeforce found in your Maps is granted as a random Crop instead at #% of the value","better":1,"matchers":[{"string":"在你的地圖中找到的生靈之力以其數值之 #% 賦予為隨機作物"}],"trade":{"ids":{"explicit":["explicit.stat_2175879462"]}}}
 {"ref":"Light Radius is based on Energy Shield instead of Life","better":1,"matchers":[{"string":"基於能量護盾的照亮範圍"}],"trade":{"ids":{"explicit":["explicit.stat_3836017971"],"fractured":["fractured.stat_3836017971"],"crafted":["crafted.stat_3836017971"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"魔力消耗的閃電傷害"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
 {"ref":"Lightning Damage of Enemies Hitting you is Lucky","better":1,"matchers":[{"string":"來自敵人擊中你的閃電傷害很幸運"}],"trade":{"ids":{"explicit":["explicit.stat_4224965099"]}}}
 {"ref":"Lightning Damage with Hits is Lucky if you've Blocked Spell Damage Recently","better":1,"matchers":[{"string":"若你近期內曾格擋法術傷害，擊中造成的閃電傷害視為不幸","value":-1},{"string":"若你近期內曾格擋法術傷害，擊中造成的閃電傷害視為幸運","value":1}],"trade":{"ids":{"explicit":["explicit.stat_1327356547"]}}}
 {"ref":"Lightning Damage with Non-Critical Strikes is Lucky","better":1,"matchers":[{"string":"非暴擊的閃電傷害很幸運"}],"trade":{"ids":{"explicit":["explicit.stat_1430928642"]}}}
@@ -5608,6 +5627,7 @@
 {"ref":"Nova Spells Cast at the targeted location instead of around you","better":1,"matchers":[{"string":"新星技能會在目標位置施放而不是以你為中心"}],"trade":{"ids":{"explicit":["explicit.stat_3250070049"]}}}
 {"ref":"Nova Spells have #% more Area of Effect","better":1,"matchers":[{"string":"新星法術有 #% 更多範圍效果"},{"string":"新星法術有 #% 更少範圍效果","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_200113086"]}}}
 {"ref":"Number of Explosives is one","better":1,"matchers":[{"string":"爆裂物數量為 1"}],"trade":{"ids":{"explicit":["explicit.stat_353291915"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"暫時失效"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
 {"ref":"of Aisling's Veil","better":0,"matchers":[{"string":"愛斯林隱匿之"}],"trade":{"ids":{"veiled":["veiled.mod_48007"]}}}
 {"ref":"of Cameria's Veil","better":0,"matchers":[{"string":"卡麥歷亞隱匿之"}],"trade":{"ids":{"veiled":["veiled.mod_65163"]}}}
 {"ref":"of Hillock's Veil","better":0,"matchers":[{"string":"西拉克隱匿之"}],"trade":{"ids":{"veiled":["veiled.mod_3975"]}}}
@@ -5631,6 +5651,7 @@
 {"ref":"Ore Deposits in your Maps are more likely to be rarer varieties","better":1,"matchers":[{"string":"在你的地圖中，礦床更可能為稀有種類"}],"trade":{"ids":{"explicit":["explicit.stat_3201470460"]}}}
 {"ref":"Ore Deposits in your Maps are replaced by Lost Shipments","better":1,"matchers":[{"string":"在你的地圖中，有 #% 使礦床替換為遺失貨物"},{"string":"在你的地圖中，礦床會替換為遺失貨物","value":100}],"trade":{"ids":{"explicit":["explicit.stat_643727077"]}}}
 {"ref":"Ore Deposits in your Maps contain #% increased Ore","better":1,"matchers":[{"string":"在你的地圖中，礦床含有的礦材增加 #%"},{"string":"在你的地圖中，礦床含有的礦材減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_792089502"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"鎮壓怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
 {"ref":"Pact Skills grant Boons instead of Afflictions","better":1,"matchers":[{"string":"誓約技能獲得恩惠而不是苦痛"}],"trade":{"ids":{"explicit":["explicit.stat_3129228821"]}}}
 {"ref":"Pact Skills have #% increased Cast Speed","better":1,"matchers":[{"string":"誓約技能增加 #% 施放速度"},{"string":"誓約技能減少 #% 施放速度","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3120620173"]}}}
 {"ref":"Pact Skills have #% increased Cooldown Recovery Rate","better":1,"matchers":[{"string":"誓約技能增加 #% 冷卻時間恢復率"},{"string":"誓約技能減少 #% 冷卻時間恢復率","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1144742318"]}}}
@@ -5772,6 +5793,7 @@
 {"ref":"Poisonous Hit","better":1,"matchers":[{"string":"攻擊擊中時使敵人中毒"}],"trade":{"ids":{"explicit":["explicit.stat_4075957192"]}}}
 {"ref":"Poisons on you expire #% slower","better":-1,"matchers":[{"string":"你身上的中毒消逝速度提高 #%"},{"string":"你身上的中毒消逝速度減慢 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2443132097"]},"inverted":true}}
 {"ref":"Poisons you inflict deal Damage #% faster","better":1,"matchers":[{"string":"你造成的中毒傷害加速 #%"}],"trade":{"ids":{"explicit":["explicit.stat_2907156609"],"implicit":["implicit.stat_2907156609"],"fractured":["fractured.stat_2907156609"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"精準怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
 {"ref":"Precise Technique","better":1,"matchers":[{"string":"精準科技"}],"trade":{"ids":{"explicit":["explicit.stat_4096273663"]}}}
 {"ref":"Precision has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"精準增加 #% 魔力保留效用"},{"string":"精準減少 #% 魔力保留效用","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3859865977"],"enchant":["enchant.stat_3859865977"]}}}
 {"ref":"Prefixes Cannot Be Changed","better":1,"matchers":[{"string":"前綴不能被變更"}],"trade":{"ids":{"explicit":["explicit.stat_2879723104"],"fractured":["fractured.stat_2879723104"],"crafted":["crafted.stat_2879723104"]}}}
@@ -5786,6 +5808,8 @@
 {"ref":"Pride has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"驕傲增加 #% 魔力保留效用"},{"string":"驕傲減少 #% 魔力保留效用","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3993865658"],"implicit":["implicit.stat_3993865658"],"fractured":["fractured.stat_3993865658"],"enchant":["enchant.stat_3993865658"]}}}
 {"ref":"Pride has no Reservation","better":1,"matchers":[{"string":"驕傲無保留"}],"trade":{"ids":{"explicit":["explicit.stat_3554614456"]}}}
 {"ref":"Primordial","better":1,"matchers":[{"string":"先祖"}],"trade":{"ids":{"explicit":["explicit.stat_1089165168"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"三相怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"褻瀆怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
 {"ref":"Projectile Attack Skills have #% increased Critical Strike Chance","better":1,"matchers":[{"string":"投射物攻擊技能增加 #% 暴擊率"},{"string":"投射物攻擊技能減少 #% 暴擊率","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_4095169720"]}}}
 {"ref":"Projectile Barrages have no spread","better":1,"matchers":[{"string":"投射彈幕不會擴散"}],"trade":{"ids":{"explicit":["explicit.stat_3953699641"]}}}
 {"ref":"Projectiles are fired in random directions","better":1,"matchers":[{"string":"投射物以隨機方向發射"}],"trade":{"ids":{"explicit":["explicit.stat_4159765624"],"enchant":["enchant.stat_4159765624"]}}}
@@ -5853,6 +5877,10 @@
 {"ref":"Quicksilver Flasks you Use also apply to nearby Allies","better":1,"matchers":[{"string":"你使用的水銀藥劑同時套用至附近友方"}],"trade":{"ids":{"explicit":["explicit.stat_699756626"],"implicit":["implicit.stat_699756626"]}}}
 {"ref":"Rage grants Spell Damage instead of Attack Damage","better":1,"matchers":[{"string":"盛怒賦予法術傷害，而非攻擊傷害"}],"trade":{"ids":{"explicit":["explicit.stat_2933909365"]}}}
 {"ref":"Rage grants Spell Damage instead of Attack Damage at 50% of the value","better":1,"matchers":[{"string":"盛怒以其 50% 的數值賦予法術傷害而不是攻擊傷害"}],"trade":{"ids":{"implicit":["implicit.stat_3007107372"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"憤怒亡者"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"憤怒亡者 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"憤怒亡者 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"憤怒亡者 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
 {"ref":"Raise Zombie does not require a corpse","better":1,"matchers":[{"string":"殭屍復甦不需要屍體"}],"trade":{"ids":{"explicit":["explicit.stat_16924183"],"implicit":["implicit.stat_16924183"]}}}
 {"ref":"Raised Spectres fire # additional Projectiles","better":1,"matchers":[{"string":"喚醒幽魂發射 # 個額外投射物"}],"trade":{"ids":{"explicit":["explicit.stat_1275218140"]}}}
 {"ref":"Raised Spectres have #% increased Area of Effect","better":1,"matchers":[{"string":"喚醒幽魂增加 #% 效果範圍"},{"string":"喚醒幽魂減少 #% 效果範圍","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3724637507"]}}}
@@ -5879,6 +5907,10 @@
 {"ref":"Rare monsters in area are Shaper-Touched","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"區域內的稀有怪物為塑界者之觸"}],"trade":{"ids":{"explicit":["explicit.stat_2931889194"],"fractured":["fractured.stat_2931889194"]}}}
 {"ref":"Rare monsters in area Temporarily Revive on death","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"區域內的稀有怪物會暫時的從死亡中復甦"}],"trade":{"ids":{"explicit":["explicit.stat_1593763475"],"fractured":["fractured.stat_1593763475"]}}}
 {"ref":"Rare Monsters in your Maps have #% increased chance to drop Scarabs per Monster Modifier affecting them","better":1,"matchers":[{"string":"你地圖中的稀有怪物有 #% 機率根據所受影響的怪物詞綴掉落聖甲蟲"}],"trade":{"ids":{"explicit":["explicit.stat_829341851"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"飛刃舞步"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"飛刃舞步 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"飛刃舞步 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"飛刃舞步 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
 {"ref":"Recharges # Charge when you Consume an Ignited corpse","better":1,"matchers":[{"string":"當你消耗 1 個被點燃的屍體時補充 # 充能"}],"trade":{"ids":{"explicit":["explicit.stat_2557247391"]}}}
 {"ref":"Recoup #% of Damage Taken by your Totems as Life","better":1,"matchers":[{"string":"補償 #% 你圖騰承受的傷害為生命"}],"trade":{"ids":{"explicit":["explicit.stat_825316273"]}}}
 {"ref":"Recoup Energy Shield instead of Life","better":1,"matchers":[{"string":"補償能量護盾，而不是生命"}],"trade":{"ids":{"explicit":["explicit.stat_4074053582"]}}}
@@ -5916,6 +5948,8 @@
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Deep","better":1,"matchers":[{"string":"你地圖中的紅色野獸增加 #% 機率來自深潭"},{"string":"你地圖中的紅色野獸減少 #% 機率來自深潭"}],"trade":{"ids":{"explicit":["explicit.stat_59091266"]}}}
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Sands","better":1,"matchers":[{"string":"你地圖中的紅色野獸增加 #% 機率來自飛沙"},{"string":"你地圖中的紅色野獸減少 #% 機率來自飛沙"}],"trade":{"ids":{"explicit":["explicit.stat_2436491720"]}}}
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Wilds","better":1,"matchers":[{"string":"你地圖中的紅色野獸增加 #% 機率來自獸性"},{"string":"你地圖中的紅色野獸減少 #% 機率來自獸性"}],"trade":{"ids":{"explicit":["explicit.stat_3090817208"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"減少回復"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"減少回復 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
 {"ref":"Reflect Shocks applied to you to all Nearby Enemies","better":1,"matchers":[{"string":"反射感電狀態將同時對附近敵人產生效果"}],"trade":{"ids":{"explicit":["explicit.stat_615884286"]}}}
 {"ref":"Reflection of Abyss (Difficulty #)","better":1,"matchers":[{"string":"深淵映像 (難度 #)"}],"trade":{"ids":{"pseudo":["pseudo.lake_38892"]}}}
 {"ref":"Reflection of Ambush (Difficulty #)","better":1,"matchers":[{"string":"伏擊映像 (難度 #)"}],"trade":{"ids":{"pseudo":["pseudo.lake_48307"]}}}
@@ -6063,9 +6097,12 @@
 {"ref":"Rerolling Favours at Ritual Altars has no Cost the first # time","better":1,"fromAreaMods":"yes","matchers":[{"string":"祭祀神壇重骰恩賜之物前 # 次免費"}],"trade":{"ids":{"enchant":["enchant.stat_2425554673"]}}}
 {"ref":"Rerolling Favours at Ritual Altars in your Maps costs #% increased Tribute","better":1,"matchers":[{"string":"你地圖中在祭祀神壇重骰恩賜之物，增加 #% 貢禮消耗"},{"string":"你地圖中在祭祀神壇重骰恩賜之物，減少 #% 貢禮消耗","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2282052746"]}}}
 {"ref":"Reserves #% of Life","better":1,"matchers":[{"string":"保留 #% 生命"}],"trade":{"ids":{"explicit":["explicit.stat_2492660287"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"抗性怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
 {"ref":"Resolute Technique","better":1,"matchers":[{"string":"堅毅之心"}],"trade":{"ids":{"explicit":["explicit.stat_3943945975"],"implicit":["implicit.stat_3943945975"],"fractured":["fractured.stat_3943945975"]}}}
 {"ref":"Resolve Aegis Recovers #% faster while not losing Resolve","better":1,"matchers":[{"string":"沒有失去決心時，決心護盾加速 #% 恢復"},{"string":"沒有失去決心時，決心護盾減緩 #% 恢復","negate":true}],"trade":{"ids":{"explicit":["sanctum.stat_3889616543"]}}}
 {"ref":"Resolve Mitigation from Enemy Hits is based on +#% of Armour","better":1,"matchers":[{"string":"敵人擊中會根據 #% 護甲使決心輕減"}],"trade":{"ids":{"explicit":["sanctum.stat_3621177126"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"躁動地面"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"躁動地面 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
 {"ref":"Restores Ward on use","better":1,"matchers":[{"string":"使用時回復保護"}],"trade":{"ids":{"implicit":["implicit.stat_2451856207"]}}}
 {"ref":"Retaliation Skills become Usable for #% longer","better":1,"matchers":[{"string":"復仇技能變為可使用的持續時間增加 #%"},{"string":"復仇技能變為可使用的持續時間減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2547149004"],"implicit":["implicit.stat_2547149004"]}}}
 {"ref":"Retaliation Skills deal #% increased Damage","better":1,"matchers":[{"string":"復仇技能增加 #% 傷害"},{"string":"復仇技能減少 #% 傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1531617714"]}}}
@@ -6104,6 +6141,9 @@
 {"ref":"Rogue's Markers, Contracts and Blueprints cannot be found in Your Maps","better":1,"matchers":[{"string":"你的地圖不會掉落盜賊之印、契約書和藍圖"}],"trade":{"ids":{"explicit":["explicit.stat_1379148633"]}}}
 {"ref":"Roiling Tempest","better":1,"matchers":[{"string":"翻騰狂雷"}],"trade":{"ids":{"explicit":["explicit.stat_2903189090"]}}}
 {"ref":"Rooms are unknown on the Sanctum Map","better":1,"matchers":[{"string":"聖域地圖上房間為未知"}],"trade":{"ids":{"explicit":["sanctum.stat_3237367570"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"毀滅 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"毀滅 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"毀滅 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
 {"ref":"Runebinder","better":1,"matchers":[{"string":"束縛印"}],"trade":{"ids":{"explicit":["explicit.stat_4080245957"],"fractured":["fractured.stat_4080245957"]}}}
 {"ref":"Sacrifice #% of Life to gain that much Energy Shield when you Cast a Spell","better":1,"matchers":[{"string":"當你施放法術時獻祭 #% 生命獲得等同其值的能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_613752285"],"implicit":["implicit.stat_613752285"]}}}
 {"ref":"Sacrifice #% of your Life when you Use or Trigger a Spell Skill","better":1,"matchers":[{"string":"當你使用或觸發法術技能時，獻祭你 #% 生命"}],"trade":{"ids":{"explicit":["explicit.stat_545408899"]}}}
@@ -6146,7 +6186,9 @@
 {"ref":"Sentinels of Purity deal #% increased Damage","better":1,"matchers":[{"string":"純淨護衛增加 #% 傷害"},{"string":"純淨護衛減少 #% 傷害","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_650630047"]}}}
 {"ref":"Share Endurance Charges with nearby party members","better":1,"matchers":[{"string":"與附近的隊友分享耐力球"}],"trade":{"ids":{"explicit":["explicit.stat_1881314095"],"implicit":["implicit.stat_1881314095"]}}}
 {"ref":"Shared Suffering","better":1,"matchers":[{"string":"苦難共磨"}],"trade":{"ids":{"explicit":["explicit.stat_956038713"],"implicit":["implicit.stat_956038713"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"破碎盾牌"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
 {"ref":"Shepherd of Souls","better":1,"matchers":[{"string":"靈魂牧者"}],"trade":{"ids":{"explicit":["explicit.stat_2038577923"],"enchant":["enchant.stat_2038577923"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"巨盾怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
 {"ref":"Shock Enemies as though dealing #% more Damage","better":1,"matchers":[{"string":"感電的敵人如同造成 #% 更多傷害"}],"trade":{"ids":{"explicit":["explicit.stat_2206792089"]}}}
 {"ref":"Shock nearby Enemies for # Seconds when you Focus","better":1,"matchers":[{"string":"當你專注時，感電附近敵人 # 秒"}],"trade":{"ids":{"explicit":["explicit.stat_3031766858"],"fractured":["fractured.stat_3031766858"],"crafted":["crafted.stat_3031766858"]}}}
 {"ref":"Shock Reflection","better":1,"matchers":[{"string":"反射感電狀態"}],"trade":{"ids":{"explicit":["explicit.stat_3291999509"],"fractured":["fractured.stat_3291999509"]}}}
@@ -6164,6 +6206,8 @@
 {"ref":"Shrines in your Maps have #% chance to be a Covetous Shrine","better":1,"matchers":[{"string":"你地圖中的神殿有 #% 機率為貪婪神殿"}],"trade":{"ids":{"explicit":["explicit.stat_2831543675"]}}}
 {"ref":"Shrines in your Maps have #% chance to be guarded by an additional Pack of Monsters","better":1,"matchers":[{"string":"你地圖中的神殿有 #% 機率被 1 群額外怪物守護"}],"trade":{"ids":{"explicit":["explicit.stat_1751949663"]}}}
 {"ref":"Siege Ballista has +# to maximum number of Summoned Totems per 200 Dexterity","better":1,"matchers":[{"string":"攻城炮台每 200 點敏捷 # 召喚圖騰的最大數量"}],"trade":{"ids":{"explicit":["explicit.stat_2125178364"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"虹吸球"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"虹吸怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
 {"ref":"Skeletons deal #% increased Damage","better":1,"matchers":[{"string":"增加 #% 骷髏造成的傷害"},{"string":"減少 #% 骷髏造成的傷害","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3059357595"],"enchant":["enchant.stat_3059357595"]}}}
 {"ref":"Skeletons gain Added Chaos Damage equal to #% of Maximum Energy Shield on your Equipped Shield","better":1,"matchers":[{"string":"骷髏附加等同 #% 你裝備中的盾牌最大能量護盾的混沌傷害"}],"trade":{"ids":{"explicit":["explicit.stat_1475598909"]}}}
 {"ref":"Skills Chain +# times","better":1,"matchers":[{"string":"技能連鎖 #"}],"trade":{"ids":{"explicit":["explicit.stat_1787073323"],"implicit":["implicit.stat_1787073323"]}}}
@@ -7214,7 +7258,15 @@
 {"ref":"Spirit Offering has #% increased Effect","better":1,"matchers":[{"string":"靈魂奉獻增加 #% 效果"},{"string":"靈魂奉獻減少 #% 效果","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3544391750"]}}}
 {"ref":"Spreads Tar when you Block","better":1,"matchers":[{"string":"當你格擋時噴灑焦油"}],"trade":{"ids":{"explicit":["explicit.stat_2894567787"]}}}
 {"ref":"Spreads Tar when you take a Critical Strike","better":1,"matchers":[{"string":"當你受到暴擊時噴灑焦油"}],"trade":{"ids":{"explicit":["explicit.stat_927458676"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"毀滅迷蹤"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"毀滅迷蹤 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"毀滅迷蹤 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"毀滅迷蹤 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
 {"ref":"Starts Energy Shield Recharge when Used","better":1,"matchers":[{"string":"使用時開始充能能量護盾"}],"trade":{"ids":{"explicit":["explicit.stat_3130697435"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"風暴喚者符文"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"風暴喚者符文 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"風暴喚者符文 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"風暴喚者符文 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
 {"ref":"Strength from Passives in Radius is Transformed to Dexterity","better":1,"matchers":[{"string":"將範圍內天賦所賦予的力量轉換成敏捷"}],"trade":{"ids":{"explicit":["explicit.stat_2237528173"],"fractured":["fractured.stat_2237528173"]}}}
 {"ref":"Strength from Passives in Radius is Transformed to Intelligence","better":1,"matchers":[{"string":"將範圍內天賦所賦予的力量轉換成智慧"}],"trade":{"ids":{"explicit":["explicit.stat_3771273420"]}}}
 {"ref":"Strength provides no bonus to Maximum Life","better":1,"matchers":[{"string":"力量不再提供最大生命加成"}],"trade":{"ids":{"explicit":["explicit.stat_2290031712"]}}}
@@ -7505,6 +7557,8 @@
 {"ref":"Tormented Spirits in your Maps have #% increased Duration","better":1,"matchers":[{"string":"你地圖中的罪魂增加 #% 持續時間"},{"string":"你地圖中的罪魂減少 #% 持續時間","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_663610248"]}}}
 {"ref":"Total Recovery per second from Life Leech is Doubled","better":1,"matchers":[{"string":"來自生命偷取的總恢復為 2 倍"}],"trade":{"ids":{"explicit":["explicit.stat_1277035917"]}}}
 {"ref":"Totem Life is increased by their Overcapped Fire Resistance","better":1,"matchers":[{"string":"圖騰生命根據超過上限的火焰抗性增加"}],"trade":{"ids":{"explicit":["explicit.stat_284063465"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"耗力圖騰"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"耗能圖騰"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
 {"ref":"Totems cannot be Stunned","better":1,"matchers":[{"string":"圖騰不能被擊暈"}],"trade":{"ids":{"explicit":["explicit.stat_335735137"]}}}
 {"ref":"Totems fire # additional Projectile","better":1,"matchers":[{"string":"圖騰發射 # 個額外投射物"},{"string":"圖騰發射額外 # 投射物"}],"trade":{"ids":{"explicit":["explicit.stat_736847554"]}}}
 {"ref":"Totems gain +#% to all Elemental Resistances","better":1,"matchers":[{"string":"圖騰 #% 全部元素抗性"}],"trade":{"ids":{"explicit":["explicit.stat_1809006367"],"implicit":["implicit.stat_1809006367"],"fractured":["fractured.stat_1809006367"]}}}
@@ -7523,6 +7577,7 @@
 {"ref":"Traps from Skills are thrown randomly around targeted location","better":1,"matchers":[{"string":"來自技能的陷阱被隨機投擲到目標位置附近"}],"trade":{"ids":{"explicit":["explicit.stat_2727188901"]}}}
 {"ref":"Traps from Socketed Skills create a Smoke Cloud when triggered","better":1,"matchers":[{"string":"當觸發插槽中的陷阱時，製造一團迷霧"}],"trade":{"ids":{"explicit":["explicit.stat_1263384098"]}}}
 {"ref":"Travel Skills other than Dash are Disabled","better":1,"matchers":[{"string":"除了幻步的快行技能不能使用"}],"trade":{"ids":{"explicit":["explicit.stat_3066073024"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"奸詐光環"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
 {"ref":"Treats Enemy Monster Chaos Resistance values as inverted","better":1,"matchers":[{"string":"視敵人的怪物混沌抗性為顛倒"}],"trade":{"ids":{"explicit":["explicit.stat_3897054103"]}}}
 {"ref":"Treats Enemy Monster Elemental Resistance values as inverted","better":1,"matchers":[{"string":"對待敵人怪物元素抗性的值為顛倒"}],"trade":{"ids":{"explicit":["explicit.stat_2750800428"]}}}
 {"ref":"Trigger a Socketed Cold Spell on Melee Critical Strike, with a 0.25 second Cooldown","better":1,"matchers":[{"string":"近戰暴擊時觸發 1 個插槽中的冰冷法術，有 0.25 秒冷卻時間"}],"trade":{"ids":{"explicit":["explicit.stat_2295303426"]}}}
@@ -7674,6 +7729,8 @@
 {"ref":"Unique Monsters have a random Shrine Buff","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"傳奇怪物有 # 個隨機神殿效果"},{"string":"傳奇怪物有 1 個隨機神殿效果","value":1}],"trade":{"ids":{"explicit":["explicit.stat_872972810"],"fractured":["fractured.stat_872972810"]}}}
 {"ref":"Unique Monsters in your Maps have #% increased chance to drop Scarabs","better":1,"matchers":[{"string":"你地圖中的傳奇怪物增加 #% 的機率掉落聖甲蟲"}],"trade":{"ids":{"explicit":["explicit.stat_3190161627"]}}}
 {"ref":"Unique Monsters slain at Ritual Altars in your Maps grant #% less Tribute","better":-1,"matchers":[{"string":"你地圖中的傳奇怪物在祭祀神壇被擊殺時，獲得的貢禮增加 #%"},{"string":"你地圖中的傳奇怪物在祭祀神壇被擊殺時，獲得的貢禮減少 #%","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3957379603"]},"inverted":true}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"不幸運暴擊"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"不可阻擋怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}
 {"ref":"Unwavering Stance","better":1,"matchers":[{"string":"烈士意志"}],"trade":{"ids":{"explicit":["explicit.stat_1683578560"],"implicit":["implicit.stat_1683578560"]}}}
 {"ref":"Up to # Rare Monsters in each of your Maps are Possessed and their Minions are Touched","better":1,"matchers":[{"string":"你每張地圖最多 # 個稀有怪物被附身且他們的召喚物被觸碰"},{"string":"你的地圖有 #% 機率最多 # 個稀有怪物被附身且他們的召喚物被觸碰"}],"trade":{"ids":{"explicit":["explicit.stat_3788412017"]}}}
 {"ref":"Used when an adjacent Flask is used","better":1,"matchers":[{"string":"當相鄰的藥劑被使用時使用"}],"trade":{"ids":{"enchant":["enchant.stat_2219523244"]}}}

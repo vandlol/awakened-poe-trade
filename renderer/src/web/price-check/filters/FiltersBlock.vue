@@ -13,6 +13,14 @@
         :filter="{ disabled: false }" :text="filters.scryingMapArea" />
       <filter-btn-numeric v-if="filters.areaLevel"
         :filter="filters.areaLevel" :name="t('item.area_level')" />
+      <filter-btn-logical v-if="filters.ultimatumChallenge"
+        :filter="filters.ultimatumChallenge" :text="t('item.ultimatum_challenge', [filters.ultimatumChallenge.text])" />
+      <filter-btn-logical v-if="filters.ultimatumReward"
+        :filter="filters.ultimatumReward" :text="t('item.ultimatum_reward', [filters.ultimatumReward.text])" />
+      <filter-btn-logical v-if="filters.ultimatumRewardUnique"
+        :filter="filters.ultimatumRewardUnique" :text="t('item.ultimatum_reward', [filters.ultimatumRewardUnique.text])" />
+      <filter-btn-logical v-if="filters.ultimatumSacrifice"
+        :filter="filters.ultimatumSacrifice" :text="t('item.ultimatum_sacrifice', [filters.ultimatumSacrifice.text])" />
       <filter-btn-numeric v-if="filters.heistWingsRevealed"
         :filter="filters.heistWingsRevealed" :name="t('item.heist_wings_revealed')" />
       <filter-btn-numeric v-if="filters.sentinelCharge"

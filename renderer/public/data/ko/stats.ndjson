@@ -2921,6 +2921,7 @@
 {"ref":"Adds Secrets of Suffering","better":1,"matchers":[{"string":"고통의 비밀 추가"}],"trade":{"ids":{"explicit":["explicit.stat_56720831"]}}}
 {"ref":"Adds Veteran's Awareness","better":1,"matchers":[{"string":"노병의 마음가짐 추가"}],"trade":{"ids":{"explicit":["explicit.stat_1379205566"]}}}
 {"ref":"Agony Crawler deals #% increased Damage","better":1,"matchers":[{"string":"고통의 벌레가 주는 피해 #% 증가"},{"string":"고통의 벌레가 주는 피해 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_786460697"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"상태 이상 및 저주 반사"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
 {"ref":"Alert Level increases by #% per second","dp":true,"better":1,"fromAreaMods":"heist_exclusive","matchers":[{"string":"경보 레벨이 1초마다 #% 증가"},{"string":"경보 레벨이 1초마다 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3138486617"],"fractured":["fractured.stat_3138486617"]}}}
 {"ref":"All Attack Damage Chills when you Stun","better":1,"matchers":[{"string":"기절시킬 시 모든 공격 피해가 냉각 유발"}],"trade":{"ids":{"explicit":["explicit.stat_2437193018"]}}}
 {"ref":"All Damage can Freeze","better":1,"matchers":[{"string":"모든 피해가 동결 유발 가능"}],"trade":{"ids":{"explicit":["explicit.stat_4052117756"],"implicit":["implicit.stat_4052117756"]}}}
@@ -3978,6 +3979,10 @@
 {"ref":"Blind Chilled Enemies on Hit","better":1,"matchers":[{"string":"냉각된 적 명중 시 #%의 확률로 실명 유발"},{"string":"냉각된 적 명중 시 실명 유발","value":100}],"trade":{"ids":{"explicit":["explicit.stat_3450276548"],"fractured":["fractured.stat_3450276548"]}}}
 {"ref":"Blind does not affect your Light Radius","better":1,"matchers":[{"string":"실명이 시야 반경에 영향을 미치지 않음"}],"trade":{"ids":{"explicit":["explicit.stat_3013171896"]}}}
 {"ref":"Blind you inflict is Reflected to you","better":1,"matchers":[{"string":"자신이 유발한 실명이 자신에게 반사됨"}],"trade":{"ids":{"explicit":["explicit.stat_2458598175"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"맹렬한 냉기"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"맹렬한 냉기 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"맹렬한 냉기 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"맹렬한 냉기 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
 {"ref":"Blood Magic","better":1,"matchers":[{"string":"혈마법"}],"trade":{"ids":{"explicit":["explicit.stat_2801937280"],"fractured":["fractured.stat_2801937280"]}}}
 {"ref":"Bloodsoaked Blade","better":1,"matchers":[{"string":"피투성이 칼날"}],"trade":{"ids":{"explicit":["explicit.stat_2363616962"]}}}
 {"ref":"Blueprints that drop in your Maps have #% chance to be fully Revealed","better":1,"matchers":[{"string":"지도에서 발견하는 도면이 #%의 확률로 완전히 드러남"}],"trade":{"ids":{"explicit":["explicit.stat_3113439544"]}}}
@@ -3990,6 +3995,7 @@
 {"ref":"Bow Attacks Sacrifice a random Damageable Minion to fire # additional Arrow","better":1,"matchers":[{"string":"활 공격이 피해를 받는 무작위 소환수를 희생하여 추가 화살 #개 발사"}],"trade":{"ids":{"explicit":["explicit.stat_151300265"]}}}
 {"ref":"Bow Knockback at Close Range","better":1,"matchers":[{"string":"근접 활 공격 시 밀어내기"}],"trade":{"ids":{"explicit":["explicit.stat_3261557635"]}}}
 {"ref":"Brand Skills have #% increased Duration","better":1,"matchers":[{"string":"낙인 스킬의 지속시간 #% 증가"},{"string":"낙인 스킬의 지속시간 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3089482869"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"버프 만료 속도 가속"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
 {"ref":"Buffs granted by Orichalcum Ore Deposits in your Maps have #% increased Duration","better":1,"matchers":[{"string":"지도 내 오리칼쿰 광맥이 부여하는 버프의 지속시간 #% 증가"},{"string":"지도 내 오리칼쿰 광맥이 부여하는 버프의 지속시간 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3847531781"]}}}
 {"ref":"Buffs on Players expire #% faster","better":1,"fromAreaMods":"yes","matchers":[{"string":"플레이어에게 적용되는 버프가 #% 더 느리게 만료됨"},{"string":"플레이어에게 적용되는 버프가 #% 더 빠르게 만료됨"}],"trade":{"ids":{"explicit":["explicit.stat_1217583941"],"fractured":["fractured.stat_1217583941"]}}}
 {"ref":"Burning Enemies you kill have a #% chance to Explode, dealing a tenth of their maximum Life as Fire Damage","better":1,"matchers":[{"string":"플레이어가 처치한 화상 상태의 적이 #%의 확률로 폭발하여, 최대 생명력의 1/10을 화염 피해로 줌"}],"trade":{"ids":{"enchant":["enchant.stat_1617268696"]}}}
@@ -4118,6 +4124,9 @@
 {"ref":"Chill Nearby Enemies when you Block","better":1,"matchers":[{"string":"막아낼 시 주변의 적 냉각"}],"trade":{"ids":{"explicit":["explicit.stat_583277599"],"fractured":["fractured.stat_583277599"]}}}
 {"ref":"Chill nearby Enemies when you Focus, causing 30% reduced Action Speed","better":1,"matchers":[{"string":"집중 시 주변의 적을 냉각시켜 동작 속도 30% 감소"}],"trade":{"ids":{"explicit":["explicit.stat_2384145996"]}}}
 {"ref":"Chills from your Hits always reduce Action Speed by at least #%","better":1,"matchers":[{"string":"피격되어 냉각된 적의 동작 속도가 항상 최소 #%만큼 감소"}],"trade":{"ids":{"explicit":["explicit.stat_2774670797"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"숨막히는 독기"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"숨막히는 독기 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"숨막히는 독기 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
 {"ref":"Clarity has no Reservation","better":1,"matchers":[{"string":"명상으로 인한 점유 없음"}],"trade":{"ids":{"explicit":["explicit.stat_2250543633"]}}}
 {"ref":"Cluster Jewels from Delirium Rewards have a #% chance to be Rare and Corrupted","better":1,"matchers":[{"string":"환영 보상으로 획득한 스킬 군 주얼이 #%의 확률로 타락한 희귀 주얼로 등장"}],"trade":{"ids":{"explicit":["explicit.stat_1975134334"]}}}
 {"ref":"Cold Damage with Hits is Lucky if you've Suppressed Spell Damage Recently","better":1,"matchers":[{"string":"최근 4초 이내에 주문 피해를 억제한 경우 명중 시 냉기 피해에 불운 적용","value":-1},{"string":"최근 4초 이내에 주문 피해를 억제한 경우 명중 시 냉기 피해에 행운 적용","value":1}],"trade":{"ids":{"explicit":["explicit.stat_3810337989"]}}}
@@ -4236,6 +4245,7 @@
 {"ref":"Damaging Ailments deal damage #% faster","better":1,"matchers":[{"string":"상태 이상 피해 #%만큼 가속"}],"trade":{"ids":{"explicit":["explicit.stat_538241406"],"fractured":["fractured.stat_538241406"]}}}
 {"ref":"Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence","better":1,"matchers":[{"string":"악의의 영향을 받는 동안 플레이어가 유발한 상태 이상이 피해 #% 가속"}],"trade":{"ids":{"explicit":["explicit.stat_3468843137"]}}}
 {"ref":"Damaging Retaliation Skills become Usable every # seconds","better":1,"matchers":[{"string":"#초마다 피해를 주는 보복 스킬 사용 가능"}],"trade":{"ids":{"explicit":["explicit.stat_1631195850"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"무시무시한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
 {"ref":"Deal #% increased Damage Over Time per 100 Player Maximum Life","better":1,"matchers":[{"string":"플레이어의 최대 생명력 100당 주는 지속 피해 #% 증가"},{"string":"플레이어의 최대 생명력 100당 주는 지속 피해 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1855381243"]}}}
 {"ref":"Deal no Chaos Damage","better":1,"matchers":[{"string":"주는 카오스 피해 없음"}],"trade":{"ids":{"explicit":["explicit.stat_1896269067"]}}}
 {"ref":"Deal no Cold Damage","better":1,"matchers":[{"string":"냉기 피해를 주지 않음"}],"trade":{"ids":{"explicit":["explicit.stat_743677006"]}}}
@@ -4282,6 +4292,7 @@
 {"ref":"Dexterity and Intelligence from passives in Radius count towards Strength Melee Damage bonus","better":1,"matchers":[{"string":"반경 내 패시브 스킬의 민첩 및 지능이 힘 근접 피해 보너스로 계산"}],"trade":{"ids":{"explicit":["explicit.stat_842363566"]}}}
 {"ref":"Dexterity from Passives in Radius is Transformed to Intelligence","better":1,"matchers":[{"string":"반경 내 패시브 스킬로 획득하는 민첩을 지능으로 전환"}],"trade":{"ids":{"explicit":["explicit.stat_2075199521"]}}}
 {"ref":"Dexterity from Passives in Radius is Transformed to Strength","better":1,"matchers":[{"string":"반경 내 패시브 스킬로 획득하는 민첩을 힘으로 전환"}],"trade":{"ids":{"explicit":["explicit.stat_4097174922"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"민첩한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
 {"ref":"Discipline has #% increased Aura Effect","better":1,"matchers":[{"string":"단련의 오라 효과 #% 증가"},{"string":"단련의 오라 효과 #% 감소","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_788317702"]}}}
 {"ref":"Discipline has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"단련의 마나 점유 효율 #% 증가"},{"string":"단련의 마나 점유 효율 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2081344089"],"implicit":["implicit.stat_2081344089"],"enchant":["enchant.stat_2081344089"]}}}
 {"ref":"Discipline has no Reservation","better":1,"matchers":[{"string":"단련으로 인한 점유 없음"}],"trade":{"ids":{"explicit":["explicit.stat_3708588508"]}}}
@@ -4295,6 +4306,7 @@
 {"ref":"Drops Sapped Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"이동 중 #초 동안 지속되는 활력 감소의 지대 생성"}],"trade":{"ids":{"implicit":["implicit.stat_1997664024"]}}}
 {"resolve":{"strat":"trivial-merge"},"stats":[{"ref":"Drops Scorched Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"이동 중 #초 동안 지속되는 그을린 지대 생성"}],"trade":{"ids":{"implicit":["implicit.stat_396238230"]}}},{"ref":"Drops Scorched Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"이동 중 #초 동안 지속되는 그을린 지대 생성"}],"trade":{"ids":{"explicit":["explicit.stat_1558131185"]}}}]}
 {"ref":"Drops Shocked Ground while moving, lasting # seconds","better":1,"matchers":[{"string":"이동 중 #초 동안 지속되는 감전 지대 생성"}],"trade":{"ids":{"explicit":["explicit.stat_3002060175"],"implicit":["implicit.stat_3002060175"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"가뭄"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
 {"ref":"Duplicates up to # random Offer Reward upon defeating the Herald of the Scourge","better":1,"matchers":[{"string":"스컬지의 전령 처치 시 제안 보상 최대 #개 무작위로 복제"}],"trade":{"ids":{"explicit":["sanctum.stat_502549687"]}}}
 {"ref":"During Effect, #% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest","better":-1,"matchers":[{"string":"효과를 받는 동안, 자신의 비 제한 원소 저항 중 가장 낮은 원소 저항의 #%만큼 받는 피해 증가"},{"string":"효과를 받는 동안, 자신의 비 제한 원소 저항 중 가장 낮은 원소 저항의 #%만큼 받는 피해 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1869678332"]},"inverted":true}}
 {"ref":"During Effect, Damage Penetrates #% Resistance of each Element for which your Uncapped Elemental Resistance is highest","better":1,"matchers":[{"string":"효과를 받는 동안, 피해가 자신의 비 제한 원소 저항 중 가장 높은 원소 저항의 #%만큼 관통"}],"trade":{"ids":{"explicit":["explicit.stat_2444301311"]}}}
@@ -4397,6 +4409,8 @@
 {"ref":"Envy has no Reservation","better":1,"matchers":[{"string":"선망으로 인한 점유 없음"}],"trade":{"ids":{"explicit":["explicit.stat_2503479316"]}}}
 {"ref":"Equipment Items with Rarity dropped by Possessed Monsters in your Maps have #% chance to be converted to Thaumaturgic Dust","better":1,"matchers":[{"string":"지도 내 사로잡힌 몬스터가 떨어뜨리는 희귀도 등급이 있는 장비 아이템이 #% 확률로 마석학 가루로 전환됨"},{"string":"지도 내 사로잡힌 몬스터가 떨어뜨리는 희귀도 등급이 있는 장비 아이템이 마석학 가루로 전환됨","value":100}],"trade":{"ids":{"explicit":["explicit.stat_1813488582"]}}}
 {"ref":"Equipped Magic Flasks have #% increased effect on you if no Flasks are Adjacent to them","better":1,"matchers":[{"string":"인접한 플라스크가 없는 경우 장착한 마법 플라스크가 플레이어에게 미치는 효과 #% 증가"},{"string":"인접한 플라스크가 없는 경우 장착한 마법 플라스크가 플레이어에게 미치는 효과 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2649904663"],"fractured":["fractured.stat_2649904663"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"받는 피해 점증"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"몬스터 속도 점증"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
 {"ref":"Eternal Youth","better":1,"matchers":[{"string":"영원한 젊음"}],"trade":{"ids":{"explicit":["explicit.stat_1308467455"],"implicit":["implicit.stat_1308467455"]}}}
 {"ref":"Evasion Rating is increased by Overcapped Cold Resistance","better":1,"matchers":[{"string":"제한 초과 냉기 저항에 따라 회피 증가"}],"trade":{"ids":{"explicit":["explicit.stat_2358015838"],"implicit":["implicit.stat_2358015838"],"fractured":["fractured.stat_2358015838"]}}}
 {"ref":"Everlasting Sacrifice","better":1,"matchers":[{"string":"영원히 계속되는 희생"}],"trade":{"ids":{"explicit":["explicit.stat_145598447"],"implicit":["implicit.stat_145598447"]}}}
@@ -4980,6 +4994,7 @@
 {"ref":"Hex Reflection","better":1,"matchers":[{"string":"사술 반사"}],"trade":{"ids":{"explicit":["explicit.stat_1731672673"]}}}
 {"ref":"Hexes applied by Socketed Curse Skills are Reflected back to you","better":1,"matchers":[{"string":"장착된 저주 스킬의 사술이 플레이어에게 반사됨"}],"trade":{"ids":{"explicit":["explicit.stat_32859524"],"implicit":["implicit.stat_32859524"]}}}
 {"ref":"Hexes Transfer to all Enemies within 3 metres when Hexed Enemy dies","better":1,"matchers":[{"string":"사술에 걸린 적 사망 시 사술이 범위 3미터 내의 모든 적에게 전이"}],"trade":{"ids":{"explicit":["explicit.stat_986616727"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"방해하는 플라스크"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
 {"ref":"Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Life","better":1,"matchers":[{"string":"생명력이 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 #% 감소"}],"trade":{"ids":{"explicit":["explicit.stat_1462364052"],"fractured":["fractured.stat_1462364052"]}}}
 {"ref":"Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Mana","better":1,"matchers":[{"string":"마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 #% 감소"}],"trade":{"ids":{"explicit":["explicit.stat_2313899959"],"fractured":["fractured.stat_2313899959"]}}}
 {"ref":"Historic","better":1,"matchers":[{"string":"역사적인 순간"}],"trade":{"ids":{"explicit":["explicit.stat_3787436548"]}}}
@@ -5189,6 +5204,9 @@
 {"ref":"Legion Monsters in your Maps which have Rewards have #% chance to gain two additional Rewards, and if not have #% chance to gain one additional Reward","better":1,"matchers":[{"string":"지도 내 군단 몬스터가 보상을 가지고 있는 경우 #%의 확률로 보상 2개 추가 획득, 보상을 가지고 있지 않은 경우 #%의 확률로 보상 1개 추가 획득"}],"trade":{"ids":{"explicit":["explicit.stat_611792282"]}}}
 {"ref":"Legion Sergeants in your Maps have #% additional chance to have Rewards","better":1,"matchers":[{"string":"지도 내 군단 병장이 보상을 제공할 확률 #% 추가"},{"string":"지도 내 군단 병장이 항상 보상 제공","value":100}],"trade":{"ids":{"explicit":["explicit.stat_958835998"]}}}
 {"ref":"Leo's Veiled","better":0,"matchers":[{"string":"레오의 장막의"}],"trade":{"ids":{"veiled":["veiled.mod_3258"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"재사용 대기시간 회복 속도 감폭"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"거리 감폭"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"치명적인 희귀 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
 {"ref":"Lethe Shade","better":1,"matchers":[{"string":"레테의 그늘"}],"trade":{"ids":{"explicit":["explicit.stat_1678358883"],"fractured":["fractured.stat_1678358883"]}}}
 {"ref":"Life and Mana Leech are instant during effect","better":1,"matchers":[{"string":"플라스크 효과를 받는 동안 생명력 및 마나 흡수 즉시 적용"}],"trade":{"ids":{"explicit":["explicit.stat_1102362593"]}}}
 {"ref":"Life and Mana Leech from Critical Strikes are instant","better":1,"matchers":[{"string":"치명타 시 생명력 및 마나 흡수 즉시 적용"}],"trade":{"ids":{"explicit":["explicit.stat_3389184522"]}}}
@@ -5203,6 +5221,7 @@
 {"ref":"Lifeforce dropped by Harvest Monsters in your Maps has #% chance to be Duplicated","better":1,"matchers":[{"string":"지도 내 수확 몬스터가 떨어뜨린 생기가 #%의 확률로 복제됨"}],"trade":{"ids":{"explicit":["explicit.stat_2591612078"]}}}
 {"ref":"Lifeforce found in your Maps is granted as a random Crop instead at #% of the value","better":1,"matchers":[{"string":"지도에서 발견하는 생기를 대신 해당 수치의 #%에 해당하는 무작위 작물로 획득"}],"trade":{"ids":{"explicit":["explicit.stat_2175879462"]}}}
 {"ref":"Light Radius is based on Energy Shield instead of Life","better":1,"matchers":[{"string":"시야 반경이 생명력 대신 에너지 보호막에 비례함"}],"trade":{"ids":{"explicit":["explicit.stat_3836017971"],"fractured":["fractured.stat_3836017971"],"crafted":["crafted.stat_3836017971"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"마나 소모로 번개 피해"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
 {"ref":"Lightning Damage of Enemies Hitting you is Lucky","better":1,"matchers":[{"string":"적으로부터 피격되어 받는 번개 피해에 행운 적용"}],"trade":{"ids":{"explicit":["explicit.stat_4224965099"]}}}
 {"ref":"Lightning Damage with Hits is Lucky if you've Blocked Spell Damage Recently","better":1,"matchers":[{"string":"최근 4초 이내에 주문 피해를 막아낸 경우 명중 시 번개 피해에 불운 적용","value":-1},{"string":"최근 4초 이내에 주문 피해를 막아낸 경우 명중 시 번개 피해에 행운 적용","value":1}],"trade":{"ids":{"explicit":["explicit.stat_1327356547"]}}}
 {"ref":"Lightning Damage with Non-Critical Strikes is Lucky","better":1,"matchers":[{"string":"비-치명타로 주는 번개 피해에 행운 적용"}],"trade":{"ids":{"explicit":["explicit.stat_1430928642"]}}}
@@ -5602,6 +5621,7 @@
 {"ref":"Nova Spells Cast at the targeted location instead of around you","better":1,"matchers":[{"string":"폭발 주문이 시전자 주변 대신 목표 지점에 시전"}],"trade":{"ids":{"explicit":["explicit.stat_3250070049"]}}}
 {"ref":"Nova Spells have #% more Area of Effect","better":1,"matchers":[{"string":"폭발 주문의 효과 범위 #% 증폭"},{"string":"폭발 주문의 효과 범위 #% 감폭","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_200113086"]}}}
 {"ref":"Number of Explosives is one","better":1,"matchers":[{"string":"폭발물 수가 1개임"}],"trade":{"ids":{"explicit":["explicit.stat_353291915"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"간헐적 무기력"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
 {"ref":"of Aisling's Veil","better":0,"matchers":[{"string":"- 아이슬링의 장막"}],"trade":{"ids":{"veiled":["veiled.mod_48007"]}}}
 {"ref":"of Cameria's Veil","better":0,"matchers":[{"string":"- 카메리아의 장막"}],"trade":{"ids":{"veiled":["veiled.mod_65163"]}}}
 {"ref":"of Hillock's Veil","better":0,"matchers":[{"string":"- 힐록의 장막"}],"trade":{"ids":{"veiled":["veiled.mod_3975"]}}}
@@ -5625,6 +5645,7 @@
 {"ref":"Ore Deposits in your Maps are more likely to be rarer varieties","better":1,"matchers":[{"string":"지도 내 광맥이 보다 희귀한 종류일 확률이 높아짐"}],"trade":{"ids":{"explicit":["explicit.stat_3201470460"]}}}
 {"ref":"Ore Deposits in your Maps are replaced by Lost Shipments","better":1,"matchers":[{"string":"지도 내 광맥이 #%의 확률로 잃어버린 수송품으로 등장"},{"string":"지도 내 광맥이 잃어버린 수송품으로 등장","value":100}],"trade":{"ids":{"explicit":["explicit.stat_643727077"]}}}
 {"ref":"Ore Deposits in your Maps contain #% increased Ore","better":1,"matchers":[{"string":"지도 내 광맥에 포함된 광석 #% 증가"},{"string":"지도 내 광맥에 포함된 광석 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_792089502"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"압도적인 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
 {"ref":"Pact Skills grant Boons instead of Afflictions","better":1,"matchers":[{"string":"맹약 스킬이 고난이 아닌 은혜 부여"}],"trade":{"ids":{"explicit":["explicit.stat_3129228821"]}}}
 {"ref":"Pact Skills have #% increased Cast Speed","better":1,"matchers":[{"string":"맹약 스킬의 시전 속도 #% 증가"},{"string":"맹약 스킬의 시전 속도 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3120620173"]}}}
 {"ref":"Pact Skills have #% increased Cooldown Recovery Rate","better":1,"matchers":[{"string":"맹약 스킬의 재사용 대기시간 회복 속도 #% 증가"},{"string":"맹약 스킬의 재사용 대기시간 회복 속도 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1144742318"]}}}
@@ -5765,6 +5786,7 @@
 {"ref":"Poisonous Hit","better":1,"matchers":[{"string":"중독 공격"}],"trade":{"ids":{"explicit":["explicit.stat_4075957192"]}}}
 {"ref":"Poisons on you expire #% slower","better":-1,"matchers":[{"string":"플레이어에게 적용되는 중독이 #% 더 빠르게 만료"},{"string":"플레이어에게 적용되는 중독이 #% 더 느리게 만료","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2443132097"]},"inverted":true}}
 {"ref":"Poisons you inflict deal Damage #% faster","better":1,"matchers":[{"string":"플레이어가 유발한 중독이 피해 #% 가속"}],"trade":{"ids":{"explicit":["explicit.stat_2907156609"],"implicit":["implicit.stat_2907156609"],"fractured":["fractured.stat_2907156609"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"정확한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
 {"ref":"Precise Technique","better":1,"matchers":[{"string":"정확한 기술"}],"trade":{"ids":{"explicit":["explicit.stat_4096273663"]}}}
 {"ref":"Precision has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"정밀함의 마나 점유 효율 #% 증가"},{"string":"정밀함의 마나 점유 효율 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3859865977"],"enchant":["enchant.stat_3859865977"]}}}
 {"ref":"Prefixes Cannot Be Changed","better":1,"matchers":[{"string":"접두어 변경 불가"}],"trade":{"ids":{"explicit":["explicit.stat_2879723104"],"fractured":["fractured.stat_2879723104"],"crafted":["crafted.stat_2879723104"]}}}
@@ -5779,6 +5801,8 @@
 {"ref":"Pride has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"자부심의 마나 점유 효율 #% 증가"},{"string":"자부심의 마나 점유 효율 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3993865658"],"implicit":["implicit.stat_3993865658"],"fractured":["fractured.stat_3993865658"],"enchant":["enchant.stat_3993865658"]}}}
 {"ref":"Pride has no Reservation","better":1,"matchers":[{"string":"자부심으로 인한 점유 없음"}],"trade":{"ids":{"explicit":["explicit.stat_3554614456"]}}}
 {"ref":"Primordial","better":1,"matchers":[{"string":"태고의"}],"trade":{"ids":{"explicit":["explicit.stat_1089165168"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"분광 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"부정한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
 {"ref":"Projectile Attack Skills have #% increased Critical Strike Chance","better":1,"matchers":[{"string":"투사체 공격 스킬의 치명타 확률 #% 증가"},{"string":"투사체 공격 스킬의 치명타 확률 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_4095169720"]}}}
 {"ref":"Projectile Barrages have no spread","better":1,"matchers":[{"string":"투사체 연발 사격이 확산되지 않음"}],"trade":{"ids":{"explicit":["explicit.stat_3953699641"]}}}
 {"ref":"Projectiles are fired in random directions","better":1,"matchers":[{"string":"투사체가 무작위 방향으로 발사됨"}],"trade":{"ids":{"explicit":["explicit.stat_4159765624"],"enchant":["enchant.stat_4159765624"]}}}
@@ -5846,6 +5870,10 @@
 {"ref":"Quicksilver Flasks you Use also apply to nearby Allies","better":1,"matchers":[{"string":"자신이 사용하는 수은 플라스크가 주변 동료들에게도 적용됨"}],"trade":{"ids":{"explicit":["explicit.stat_699756626"],"implicit":["implicit.stat_699756626"]}}}
 {"ref":"Rage grants Spell Damage instead of Attack Damage","better":1,"matchers":[{"string":"격노가 공격 피해가 아닌 주문 피해 부여"}],"trade":{"ids":{"explicit":["explicit.stat_2933909365"]}}}
 {"ref":"Rage grants Spell Damage instead of Attack Damage at 50% of the value","better":1,"matchers":[{"string":"격노가 공격 피해가 아닌 주문 피해를 50%의 값으로 부여"}],"trade":{"ids":{"implicit":["implicit.stat_3007107372"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"격노하는 시체"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"격노하는 시체 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"격노하는 시체 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"격노하는 시체 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
 {"ref":"Raise Zombie does not require a corpse","better":1,"matchers":[{"string":"시신 없이도 좀비 소환 가능"}],"trade":{"ids":{"explicit":["explicit.stat_16924183"],"implicit":["implicit.stat_16924183"]}}}
 {"ref":"Raised Spectres fire # additional Projectiles","better":1,"matchers":[{"string":"소환한 망령이 투사체 #개 추가 발사"}],"trade":{"ids":{"explicit":["explicit.stat_1275218140"]}}}
 {"ref":"Raised Spectres have #% increased Area of Effect","better":1,"matchers":[{"string":"소환한 망령의 효과 범위 #% 증가"},{"string":"소환한 망령의 효과 범위 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3724637507"]}}}
@@ -5872,6 +5900,10 @@
 {"ref":"Rare monsters in area are Shaper-Touched","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"지역 내 희귀 몬스터가 쉐이퍼의 손길에 닿음"}],"trade":{"ids":{"explicit":["explicit.stat_2931889194"],"fractured":["fractured.stat_2931889194"]}}}
 {"ref":"Rare monsters in area Temporarily Revive on death","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"지역 내 희귀 몬스터가 사망 시 일시적으로 부활"}],"trade":{"ids":{"explicit":["explicit.stat_1593763475"],"fractured":["fractured.stat_1593763475"]}}}
 {"ref":"Rare Monsters in your Maps have #% increased chance to drop Scarabs per Monster Modifier affecting them","better":1,"matchers":[{"string":"지도 내 희귀 몬스터에 영향을 주는 몬스터 속성 하나당 해당 몬스터가 갑충석을 떨어뜨릴 확률 #% 증가"}],"trade":{"ids":{"explicit":["explicit.stat_829341851"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"면도날 춤"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"면도날 춤 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"면도날 춤 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"면도날 춤 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
 {"ref":"Recharges # Charge when you Consume an Ignited corpse","better":1,"matchers":[{"string":"점화된 시신 소모 시 충전 # 재충전"}],"trade":{"ids":{"explicit":["explicit.stat_2557247391"]}}}
 {"ref":"Recoup #% of Damage Taken by your Totems as Life","better":1,"matchers":[{"string":"플레이어의 토템이 받은 피해의 #%를 생명력으로 회생"}],"trade":{"ids":{"explicit":["explicit.stat_825316273"]}}}
 {"ref":"Recoup Energy Shield instead of Life","better":1,"matchers":[{"string":"생명력 대신 에너지 보호막 회생"}],"trade":{"ids":{"explicit":["explicit.stat_4074053582"]}}}
@@ -5909,6 +5941,8 @@
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Deep","better":1,"matchers":[{"string":"지도 내 붉은 야수가 심해 야수일 확률 #% 감소"},{"string":"지도 내 붉은 야수가 심해 야수일 확률 #% 증가"}],"trade":{"ids":{"explicit":["explicit.stat_59091266"]}}}
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Sands","better":1,"matchers":[{"string":"지도 내 붉은 야수가 사막 야수일 확률 #% 감소"},{"string":"지도 내 붉은 야수가 사막 야수일 확률 #% 증가"}],"trade":{"ids":{"explicit":["explicit.stat_2436491720"]}}}
 {"ref":"Red Beasts in your Maps have #% increased chance to be from The Wilds","better":1,"matchers":[{"string":"지도 내 붉은 야수가 야생 야수일 확률 #% 감소"},{"string":"지도 내 붉은 야수가 야생 야수일 확률 #% 증가"}],"trade":{"ids":{"explicit":["explicit.stat_3090817208"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"회복 감소"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"회복 감소 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
 {"ref":"Reflect Shocks applied to you to all Nearby Enemies","better":1,"matchers":[{"string":"자신에게 적용된 감전을 주변의 적 모두에게 반사"}],"trade":{"ids":{"explicit":["explicit.stat_615884286"]}}}
 {"ref":"Reflection of Abyss (Difficulty #)","better":1,"matchers":[{"string":"심연의 투영 (난이도 #)"}],"trade":{"ids":{"pseudo":["pseudo.lake_38892"]}}}
 {"ref":"Reflection of Ambush (Difficulty #)","better":1,"matchers":[{"string":"매복의 투영 (난이도 #)"}],"trade":{"ids":{"pseudo":["pseudo.lake_48307"]}}}
@@ -6056,9 +6090,12 @@
 {"ref":"Rerolling Favours at Ritual Altars has no Cost the first # time","better":1,"fromAreaMods":"yes","matchers":[{"string":"의식 제단에서 헌정품을 무작위 변경할 때 첫 #회는 비용 없음"}],"trade":{"ids":{"enchant":["enchant.stat_2425554673"]}}}
 {"ref":"Rerolling Favours at Ritual Altars in your Maps costs #% increased Tribute","better":1,"matchers":[{"string":"지도 내 의식 제단에서 헌정품을 무작위 변경하는 데 소모되는 공물 점수 #% 증가"},{"string":"지도 내 의식 제단에서 헌정품을 무작위 변경하는 데 소모되는 공물 점수 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2282052746"]}}}
 {"ref":"Reserves #% of Life","better":1,"matchers":[{"string":"생명력 #% 점유"}],"trade":{"ids":{"explicit":["explicit.stat_2492660287"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"저항하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
 {"ref":"Resolute Technique","better":1,"matchers":[{"string":"확고한 기술"}],"trade":{"ids":{"explicit":["explicit.stat_3943945975"],"implicit":["implicit.stat_3943945975"],"fractured":["fractured.stat_3943945975"]}}}
 {"ref":"Resolve Aegis Recovers #% faster while not losing Resolve","better":1,"matchers":[{"string":"투지를 상실하지 않는 동안 투지 비호가 #% 더 빠르게 회복"},{"string":"투지를 상실하지 않는 동안 투지 비호가 #% 더 느리게 회복","negate":true}],"trade":{"ids":{"explicit":["sanctum.stat_3889616543"]}}}
 {"ref":"Resolve Mitigation from Enemy Hits is based on +#% of Armour","better":1,"matchers":[{"string":"적에게 피격 시 투지 완화의 기준이 되는 방어도 #%"}],"trade":{"ids":{"explicit":["sanctum.stat_3621177126"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"쉬지 못하는 흙"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"쉬지 못하는 흙 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
 {"ref":"Restores Ward on use","better":1,"matchers":[{"string":"사용 시 수호 회복"}],"trade":{"ids":{"implicit":["implicit.stat_2451856207"]}}}
 {"ref":"Retaliation Skills become Usable for #% longer","better":1,"matchers":[{"string":"보복 스킬의 사용 가능 시간 #% 증가"},{"string":"보복 스킬의 사용 가능 시간 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_2547149004"],"implicit":["implicit.stat_2547149004"]}}}
 {"ref":"Retaliation Skills deal #% increased Damage","better":1,"matchers":[{"string":"보복 스킬로 주는 피해 #% 증가"},{"string":"보복 스킬로 주는 피해 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_1531617714"]}}}
@@ -6097,6 +6134,9 @@
 {"ref":"Rogue's Markers, Contracts and Blueprints cannot be found in Your Maps","better":1,"matchers":[{"string":"지도에서 도둑의 증표, 계약, 도면 발견 불가"}],"trade":{"ids":{"explicit":["explicit.stat_1379148633"]}}}
 {"ref":"Roiling Tempest","better":1,"matchers":[{"string":"요동치는 폭풍"}],"trade":{"ids":{"explicit":["explicit.stat_2903189090"]}}}
 {"ref":"Rooms are unknown on the Sanctum Map","better":1,"matchers":[{"string":"성역 지도에서 방을 확인할 수 없음"}],"trade":{"ids":{"explicit":["sanctum.stat_3237367570"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"파탄 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"파탄 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"파탄 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
 {"ref":"Runebinder","better":1,"matchers":[{"string":"룬 결속사"}],"trade":{"ids":{"explicit":["explicit.stat_4080245957"],"fractured":["fractured.stat_4080245957"]}}}
 {"ref":"Sacrifice #% of Life to gain that much Energy Shield when you Cast a Spell","better":1,"matchers":[{"string":"주문 시전 시 생명력 #%를 희생하여 같은 값의 에너지 보호막 획득"}],"trade":{"ids":{"explicit":["explicit.stat_613752285"],"implicit":["implicit.stat_613752285"]}}}
 {"ref":"Sacrifice #% of your Life when you Use or Trigger a Spell Skill","better":1,"matchers":[{"string":"주문 스킬 사용 또는 발동 시 생명력의 #% 희생"}],"trade":{"ids":{"explicit":["explicit.stat_545408899"]}}}
@@ -6139,7 +6179,9 @@
 {"ref":"Sentinels of Purity deal #% increased Damage","better":1,"matchers":[{"string":"정화의 파수꾼이 주는 피해 #% 증가"},{"string":"정화의 파수꾼이 주는 피해 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_650630047"]}}}
 {"ref":"Share Endurance Charges with nearby party members","better":1,"matchers":[{"string":"주변의 파티원과 인내 충전 공유"}],"trade":{"ids":{"explicit":["explicit.stat_1881314095"],"implicit":["implicit.stat_1881314095"]}}}
 {"ref":"Shared Suffering","better":1,"matchers":[{"string":"공유된 고통"}],"trade":{"ids":{"explicit":["explicit.stat_956038713"],"implicit":["implicit.stat_956038713"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"조각난 방패"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
 {"ref":"Shepherd of Souls","better":1,"matchers":[{"string":"영혼의 목자"}],"trade":{"ids":{"explicit":["explicit.stat_2038577923"],"enchant":["enchant.stat_2038577923"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"방어하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
 {"ref":"Shock Enemies as though dealing #% more Damage","better":1,"matchers":[{"string":"#% 증폭된 피해를 준 것처럼 적에게 감전 유발"}],"trade":{"ids":{"explicit":["explicit.stat_2206792089"]}}}
 {"ref":"Shock nearby Enemies for # Seconds when you Focus","better":1,"matchers":[{"string":"집중 시 #초 동안 주변의 적 감전"}],"trade":{"ids":{"explicit":["explicit.stat_3031766858"],"fractured":["fractured.stat_3031766858"],"crafted":["crafted.stat_3031766858"]}}}
 {"ref":"Shock Reflection","better":1,"matchers":[{"string":"감전 반사"}],"trade":{"ids":{"explicit":["explicit.stat_3291999509"],"fractured":["fractured.stat_3291999509"]}}}
@@ -6157,6 +6199,8 @@
 {"ref":"Shrines in your Maps have #% chance to be a Covetous Shrine","better":1,"matchers":[{"string":"지도 내 성소가 #%의 확률로 갈망의 성소로 등장"}],"trade":{"ids":{"explicit":["explicit.stat_2831543675"]}}}
 {"ref":"Shrines in your Maps have #% chance to be guarded by an additional Pack of Monsters","better":1,"matchers":[{"string":"#%의 확률로 지도 내 성소를 지키는 몬스터 무리 1개 추가"}],"trade":{"ids":{"explicit":["explicit.stat_1751949663"]}}}
 {"ref":"Siege Ballista has +# to maximum number of Summoned Totems per 200 Dexterity","better":1,"matchers":[{"string":"민첩 200당 공성 쇠뇌의 소환 가능한 토템 최대치 #"}],"trade":{"ids":{"explicit":["explicit.stat_2125178364"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"충전 흡수"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"착취하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
 {"ref":"Skeletons deal #% increased Damage","better":1,"matchers":[{"string":"해골이 주는 피해 #% 증가"},{"string":"해골이 주는 피해 #% 감소","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3059357595"],"enchant":["enchant.stat_3059357595"]}}}
 {"ref":"Skeletons gain Added Chaos Damage equal to #% of Maximum Energy Shield on your Equipped Shield","better":1,"matchers":[{"string":"해골이 플레이어가 장착 중인 방패의 에너지 보호막 최대치의 #%와 동일한 추가 카오스 피해 획득"}],"trade":{"ids":{"explicit":["explicit.stat_1475598909"]}}}
 {"ref":"Skills Chain +# times","better":1,"matchers":[{"string":"스킬 연쇄 #회"}],"trade":{"ids":{"explicit":["explicit.stat_1787073323"],"implicit":["implicit.stat_1787073323"]}}}
@@ -7211,7 +7255,15 @@
 {"ref":"Spirit Offering has #% increased Effect","better":1,"matchers":[{"string":"영혼 공물의 효과 #% 증가"},{"string":"영혼 공물의 효과 #% 감소","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3544391750"]}}}
 {"ref":"Spreads Tar when you Block","better":1,"matchers":[{"string":"막아낼 시 타르 확산"}],"trade":{"ids":{"explicit":["explicit.stat_2894567787"]}}}
 {"ref":"Spreads Tar when you take a Critical Strike","better":1,"matchers":[{"string":"치명타 피격 시 타르 확산"}],"trade":{"ids":{"explicit":["explicit.stat_927458676"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"뒤를 쫓는 파탄"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
 {"ref":"Starts Energy Shield Recharge when Used","better":1,"matchers":[{"string":"사용 시 에너지 보호막 재충전 시작"}],"trade":{"ids":{"explicit":["explicit.stat_3130697435"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"폭풍 소환사 룬"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"폭풍 소환사 룬 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"폭풍 소환사 룬 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"폭풍 소환사 룬 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
 {"ref":"Strength from Passives in Radius is Transformed to Dexterity","better":1,"matchers":[{"string":"반경 내 패시브 스킬로 획득하는 힘을 민첩으로 전환"}],"trade":{"ids":{"explicit":["explicit.stat_2237528173"],"fractured":["fractured.stat_2237528173"]}}}
 {"ref":"Strength from Passives in Radius is Transformed to Intelligence","better":1,"matchers":[{"string":"반경 내 패시브 스킬로 획득하는 힘을 지능으로 전환"}],"trade":{"ids":{"explicit":["explicit.stat_3771273420"]}}}
 {"ref":"Strength provides no bonus to Maximum Life","better":1,"matchers":[{"string":"힘에 따른 생명력 최대치 보너스 없음"}],"trade":{"ids":{"explicit":["explicit.stat_2290031712"]}}}
@@ -7503,6 +7555,8 @@
 {"ref":"Tormented Spirits in your Maps have #% increased Duration","better":1,"matchers":[{"string":"지도 내 고통받는 혼백의 지속시간 #% 증가"},{"string":"지도 내 고통받는 혼백의 지속시간 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_663610248"]}}}
 {"ref":"Total Recovery per second from Life Leech is Doubled","better":1,"matchers":[{"string":"생명력 흡수로 인한 초당 총 회복량 2배"}],"trade":{"ids":{"explicit":["explicit.stat_1277035917"]}}}
 {"ref":"Totem Life is increased by their Overcapped Fire Resistance","better":1,"matchers":[{"string":"토템의 제한 초과 화염 저항에 따라 소환수 생명력 증가"}],"trade":{"ids":{"explicit":["explicit.stat_284063465"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"완력의 대가 토템"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"잠재력의 대가 토템"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
 {"ref":"Totems cannot be Stunned","better":1,"matchers":[{"string":"토템 기절 면역"}],"trade":{"ids":{"explicit":["explicit.stat_335735137"]}}}
 {"ref":"Totems fire # additional Projectile","better":1,"matchers":[{"string":"토템이 추가 투사체 #개 발사"}],"trade":{"ids":{"explicit":["explicit.stat_736847554"]}}}
 {"ref":"Totems gain +#% to all Elemental Resistances","better":1,"matchers":[{"string":"토템의 모든 원소 저항 #%"}],"trade":{"ids":{"explicit":["explicit.stat_1809006367"],"implicit":["implicit.stat_1809006367"],"fractured":["fractured.stat_1809006367"]}}}
@@ -7521,6 +7575,7 @@
 {"ref":"Traps from Skills are thrown randomly around targeted location","better":1,"matchers":[{"string":"스킬의 덫이 목표 지점 주위에 무작위로 투척됨"}],"trade":{"ids":{"explicit":["explicit.stat_2727188901"]}}}
 {"ref":"Traps from Socketed Skills create a Smoke Cloud when triggered","better":1,"matchers":[{"string":"발동 시 장착된 덫 스킬이 연막 생성"}],"trade":{"ids":{"explicit":["explicit.stat_1263384098"]}}}
 {"ref":"Travel Skills other than Dash are Disabled","better":1,"matchers":[{"string":"질주 외의 이동 전용 스킬 비활성화"}],"trade":{"ids":{"explicit":["explicit.stat_3066073024"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"오라의 배신"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
 {"ref":"Treats Enemy Monster Chaos Resistance values as inverted","better":1,"matchers":[{"string":"적 몬스터 카오스 저항을 반대로 간주"}],"trade":{"ids":{"explicit":["explicit.stat_3897054103"]}}}
 {"ref":"Treats Enemy Monster Elemental Resistance values as inverted","better":1,"matchers":[{"string":"적 몬스터 원소 저항을 반대로 간주"}],"trade":{"ids":{"explicit":["explicit.stat_2750800428"]}}}
 {"ref":"Trigger a Socketed Cold Spell on Melee Critical Strike, with a 0.25 second Cooldown","better":1,"matchers":[{"string":"근접 치명타 시 장착된 냉기 주문 발동, 재사용 대기시간 0.25초"}],"trade":{"ids":{"explicit":["explicit.stat_2295303426"]}}}
@@ -7671,6 +7726,8 @@
 {"ref":"Unique Monsters have a random Shrine Buff","better":1,"fromAreaMods":"ubermap_exclusive","matchers":[{"string":"고유 몬스터가 무작위 성소 버프 #개 보유"},{"string":"고유 몬스터가 무작위 성소 버프 1개 보유","value":1}],"trade":{"ids":{"explicit":["explicit.stat_872972810"],"fractured":["fractured.stat_872972810"]}}}
 {"ref":"Unique Monsters in your Maps have #% increased chance to drop Scarabs","better":1,"matchers":[{"string":"지도 내 고유 몬스터가 갑충석을 떨어뜨릴 확률 #% 증가"}],"trade":{"ids":{"explicit":["explicit.stat_3190161627"]}}}
 {"ref":"Unique Monsters slain at Ritual Altars in your Maps grant #% less Tribute","better":-1,"matchers":[{"string":"지도 내 의식 제단에서 처치한 고유 몬스터가 주는 공물 점수 #% 증폭"},{"string":"지도 내 의식 제단에서 처치한 고유 몬스터가 주는 공물 점수 #% 감폭","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_3957379603"]},"inverted":true}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"불운의 치명타"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"폭주 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}
 {"ref":"Unwavering Stance","better":1,"matchers":[{"string":"변함없는 자세"}],"trade":{"ids":{"explicit":["explicit.stat_1683578560"],"implicit":["implicit.stat_1683578560"]}}}
 {"ref":"Up to # Rare Monsters in each of your Maps are Possessed and their Minions are Touched","better":1,"matchers":[{"string":"#%의 확률로 지도 내 희귀 몬스터 최대 #마리가 사로잡힌 몬스터이고 그 소환수들은 손길에 닿은 몬스터임"},{"string":"각각의 지도에서 희귀 몬스터 최대 #마리가 사로잡힌 몬스터이고 그 소환수들은 손길에 닿은 몬스터임"}],"trade":{"ids":{"explicit":["explicit.stat_3788412017"]}}}
 {"ref":"Used when an adjacent Flask is used","better":1,"matchers":[{"string":"인접한 플라스크 사용 시 사용"}],"trade":{"ids":{"enchant":["enchant.stat_2219523244"]}}}

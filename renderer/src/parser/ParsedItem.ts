@@ -58,6 +58,16 @@ export interface ParsedItem {
   }
   logbookAreaMods?: ParsedModifier[][]
   chartSulphur?: number
+  ultimatum?: {
+    // NOTE: should match option values on trade
+    challenge?: 'Exterminate' | 'Survival' | 'Defense' | 'Conquer'
+    challengeText?: string
+    reward?: 'DoubleCurrency' | 'DoubleDivCards' | 'MirrorRare' | 'ExchangeUnique'
+    rewardText?: string
+    rewardUnique?: BaseType
+    sacrifice?: BaseType
+    sacrificeText?: string
+  }
 
   gemLevel?: number
   imbuedGem?: boolean

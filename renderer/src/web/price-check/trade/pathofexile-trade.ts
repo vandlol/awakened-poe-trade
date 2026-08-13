@@ -171,6 +171,14 @@ interface TradeRequest {
           chart_sulphur?: FilterRange
         }
       }
+      ultimatum_filters?: {
+        filters: {
+          ultimatum_challenge?: { option?: string }
+          ultimatum_reward?: { option?: string }
+          ultimatum_input?: { option?: string }
+          ultimatum_output?: { option?: string }
+        }
+      }
       heist_filters?: {
         filters: {
           heist_wings?: FilterRange
@@ -401,6 +409,22 @@ export function createTradeRequest (filters: ItemFilters, stats: FilterOrGroup[]
     if (filters.areaLevel.max) {
       propSet(query.filters, 'map_filters.filters.area_level.max', filters.areaLevel.max)
     }
+  }
+
+  if (filters.ultimatumChallenge && !filters.ultimatumChallenge.disabled) {
+    propSet(query.filters, 'ultimatum_filters.filters.ultimatum_challenge.option', filters.ultimatumChallenge.value)
+  }
+
+  if (filters.ultimatumReward && !filters.ultimatumReward.disabled) {
+    propSet(query.filters, 'ultimatum_filters.filters.ultimatum_reward.option', filters.ultimatumReward.value)
+  }
+
+  if (filters.ultimatumSacrifice && !filters.ultimatumSacrifice.disabled) {
+    propSet(query.filters, 'ultimatum_filters.filters.ultimatum_input.option', filters.ultimatumSacrifice.nameTrade)
+  }
+
+  if (filters.ultimatumRewardUnique && !filters.ultimatumRewardUnique.disabled) {
+    propSet(query.filters, 'ultimatum_filters.filters.ultimatum_output.option', filters.ultimatumRewardUnique.nameTrade)
   }
 
   if (filters.heistWingsRevealed && !filters.heistWingsRevealed.disabled) {

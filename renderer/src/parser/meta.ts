@@ -48,6 +48,7 @@ export enum ItemCategory {
   SanctumRelic = 'Sanctum Relic',
   Tincture = 'Tincture',
   Charm = 'Charm',
+  Ultimatum = 'Ultimatum',
   Idol = 'Idol',
   Graft = 'Graft',
   Chart = 'Chart',

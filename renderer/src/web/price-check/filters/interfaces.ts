@@ -83,6 +83,26 @@ export interface ItemFilters {
     disabled: boolean
   }
   areaLevel?: FilterNumeric
+  ultimatumChallenge?: {
+    value: string
+    text: string
+    disabled: boolean
+  }
+  ultimatumReward?: {
+    value: string
+    text: string
+    disabled: boolean
+  }
+  ultimatumRewardUnique?: {
+    text: string
+    nameTrade: string
+    disabled: boolean
+  }
+  ultimatumSacrifice?: {
+    text: string
+    nameTrade: string
+    disabled: boolean
+  }
   heistWingsRevealed?: FilterNumeric
   sentinelCharge?: FilterNumeric
   trade: {
